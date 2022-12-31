@@ -1,0 +1,43 @@
+.about{
+ max-width: 100%;
+ display: flex;
+ position: relative;
+}
+
+.about__content{
+ display: flex;
+ flex-direction: column;
+ gap: 23px;
+ padding-top: 63px;
+ padding-left: 80px;
+ padding-bottom: 51px;
+}
+
+.about__title{
+ margin: 0;
+ font-weight: 400;
+ font-size: 44px;
+ line-height: 51px;
+}
+
+.about__title-span{
+ color: #5D39AA;
+}
+
+.about__text{
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 132.4%;
+ max-width: 861px;
+}
+
+.about__image{
+ position: absolute;
+ top: 30px;
+ right: 0;
+ width: 633.56px;
+ height: 374px;
+}
