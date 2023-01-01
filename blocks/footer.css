@@ -1,0 +1,117 @@
+.footer{
+  max-width: 1440px;
+  margin-top: -130px;
+  color: #FDFFFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.footer__logo{
+  width: 143px;
+  height: 103.79px;
+  padding-left: 40px;
+}
+
+.footer__text{
+ padding-top: 50px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 589px;
+ gap: 9px;
+}
+
+.footer__links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 65px;
+}
+
+.footer__link{
+  text-decoration: none;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.footer__link:hover{
+ opacity: 0.8;
+}
+
+.footer__contact{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ display: flex;
+ justify-content: space-between;
+ max-width: 540px;
+ gap: 30px;
+}
+
+.footer__contact-title{
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer__contact-email{
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+ font-size: 22px;
+ line-height: 27px;
+}
+
+.footer__contact-phone{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.footer__icons{  
+  list-style-type: none;
+  padding: 80px 50px 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 196.8px;
+  width: 100%;
+}
+
+.footer__icons-link{
+  cursor: pointer;
+}
+
+.footer__icons-link:hover{
+ opacity: 0.8;
+}
+
+.footer__icons-facebook{
+ height: 28.7px;
+  width: 30.4px;
+}
+
+.footer__icons-instagram{
+ height: 28.7px;
+ width: 30.3px;
+}
+
+.footer__icons-airbnb{
+ height: 26.6px;
+ width: 26.17px; 
+}
+
+.footer__icons-shopify{
+  height: 30.75px;
+  width: 28.7px;
+}
