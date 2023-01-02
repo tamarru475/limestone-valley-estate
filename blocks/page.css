@@ -16,4 +16,9 @@
     -moz-background-size: 100vw;
     -o-background-size: 100vw;
     background-size: 100vw;
-  }
+    scroll-behavior: smooth;
+}
+
+html{
+  scroll-behavior: smooth;
+}

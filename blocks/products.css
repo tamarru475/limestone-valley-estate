@@ -3,8 +3,6 @@
  position: relative;
 }
 
-
-
 .products__grid{
  max-width: 100%;
  height: 390px;
@@ -135,6 +133,12 @@
   color: #675E8F;
   padding: 15.11px 71px 15.11px 71px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.products__button-more:hover{
+  border: 2.5765px solid #666666;
+  color: #666666;
 }
 
 .products__button-buy{
@@ -150,6 +154,11 @@
   color: #EFF1EF;
   padding: 15.11px 75.3px 15.11px 75.3px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.products__button-buy:hover{
+  background: #666666;
 }
 
 .products__image{

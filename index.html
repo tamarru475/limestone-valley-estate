@@ -14,19 +14,19 @@
              <img src="./images/Logo.svg" alt="Logo" class="header__logo" />
              <ul class="nav__links">
                  <li>
-                     <a class="nav__link" src="#about">About</a>
+                     <a class="nav__link" href="#about">About</a>
                  </li>
                  <li>
-                     <a class="nav__link" src="#products">Our products</a>
+                     <a class="nav__link" href="#products">Our products</a>
                  </li>
                  <li>
-                     <a class="nav__link" src="#stay">Farm stay</a>
+                     <a class="nav__link" href="#stay">Farm stay</a>
                  </li>
                  <li>
-                     <a class="nav__link" src="#gallery">Gallery</a>
+                     <a class="nav__link" href="#gallery">Gallery</a>
                  </li>
                  <li>
-                     <a class="nav__link" src="#footer">Contact us</a>
+                     <a class="nav__link" href="#footer">Contact us</a>
                  </li>
              </ul>
          </nav>
@@ -97,11 +97,52 @@
         </section>
         <section class="stay" id="stay">
             <div class="stay__slideshow-container">
-                <ul class="stay__sideshow">
-                    <li>
-                        <img src="./images/barn-main.png" alt="Barn house" class="stay__slideshow-slide"/>
+                <ul class="stay__slideshow">
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/barn-main.png" alt="Barn house" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/bedroom-main.JPG" alt="Bedroom" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/bedroom-back.JPG" alt="Bedroom" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/bedroom-window.JPG" alt="Bedroom" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/farm-house.JPG" alt="Barn house" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/kitchen-main.JPG" alt="Kitchen" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/kitchen.JPG" alt="Kitchen" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/livingroom-left.JPG" alt="Livingroom" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/livingroom-main.JPG" alt="Livingroom" class="stay__slideshow-image"/>
+                    </li>
+                    <li class="stay__slideshow-slide fade">
+                        <img src="./images/livingroom-window.JPG" alt="Livingroom" class="stay__slideshow-image"/>
                     </li>
                 </ul>
+                <a class="stay__slideshow-prev" onclick="changeSlide(-1, 'stay__slideshow-slide', 'stay__slideshow-dot')">❮</a>
+                <a class="stay__slideshow-next" onclick="changeSlide(1, 'stay__slideshow-slide', 'stay__slideshow-dot')">❯</a>
+                <div class="stay__slideshow-dots">
+                    <span class="stay__slideshow-dot" onclick="currentSlide(1)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(2)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(3)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(4)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(5)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(6)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(7)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(8)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(9)"></span>
+                    <span class="stay__slideshow-dot" onclick="currentSlide(10)"></span>
+                </div>
             </div>
             <div class="stay__content">
                 <div class="stay__text">
@@ -130,11 +171,52 @@
                 </p>
             </div>
             <div class="gallery__slideshow-container">
-                <ul class="gallery__sideshow">
-                    <li>
-                        <img src="./images/gallery-image.png" alt="mountains" class="gallery__slideshow-slide"/>
+                <div class="gallery__slideshow-dots">
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(1)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(2)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(3)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(4)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(5)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(6)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(7)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(8)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(9)"></span>
+                    <span class="gallery__slideshow-dot" onclick="currentSlide(10)"></span>
+                </div>
+                <ul class="gallery__slideshow">
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/gallery-image.png" alt="mountains" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/alpaka.jpg" alt="alpakas" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/bird-fly.jpg" alt="bird" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/butterfly.jpg" alt="butterfly" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/lavender-grass.jpeg" alt="lavender" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/lavender-sky.jpeg" alt="lavender" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/Mountains.jpeg" alt="mountains" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/sunset-horizonatal.jpg" alt="sunset" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/sunset-main.jpg" alt="sunset" class="gallery__slideshow-image"/>
+                    </li>
+                    <li class="gallery__slideshow-slide fade">
+                        <img src="./images/main-homepage.png" alt="sunset" class="gallery__slideshow-image"/>
                     </li>
                 </ul>
+                <a class="gallery__slideshow-prev" onclick="changeSlide(-1, 'gallery__slideshow-slide', 'gallery__slideshow-dot')">❮</a>
+                <a class="gallery__slideshow-next" onclick="changeSlide(1, 'gallery__slideshow-slide', 'gallery__slideshow-dot')">❯</a>
             </div>
         </section>
       </main>
@@ -143,16 +225,16 @@
         <div class="footer__text">
             <ul class="footer__links">
                 <li>
-                    <a class="footer__link" src="#header">Home</a>
+                    <a class="footer__link" href="#header">Home</a>
                  </li>
               <li>
-                 <a class="footer__link" src="#about">About</a>
+                 <a class="footer__link" href="#about">About</a>
               </li>
               <li>
-                 <a class="footer__link" src="#products">Our products</a>
+                 <a class="footer__link" href="#products">Our products</a>
                </li>
                <li>
-                 <a class="footer__link" src="#stay">Farm stay</a>
+                 <a class="footer__link" href="#stay">Farm stay</a>
                 </li>
             </ul>
             <ul class="footer__contact">
@@ -187,5 +269,6 @@
         </ul>
       </footer>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
