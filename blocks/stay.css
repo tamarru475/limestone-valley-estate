@@ -1,27 +1,27 @@
-.stay{
+.stay {
   margin-top: 121px;
   max-width: 100%;
 }
 
-.stay__slideshow-container{
+.stay__slideshow-container {
   max-width: 100%;
   box-sizing: border-box;
   position: relative;
 }
 
-.stay__slideshow{  
+.stay__slideshow {
   padding: 0;
   margin: auto;
   list-style-type: none;
   z-index: -1;
 }
 
-.stay__slideshow-dots{
- text-align: center;
- padding-top: 15px;
+.stay__slideshow-dots {
+  text-align: center;
+  padding-top: 15px;
 }
 
-.stay__slideshow-dot{
+.stay__slideshow-dot {
   cursor: pointer;
   height: 10px;
   width: 10px;
@@ -32,21 +32,23 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .stay__slideshow-dot:hover{
-  background-color: #8C7FC2;
+.active,
+.stay__slideshow-dot:hover {
+  background-color: #8c7fc2;
 }
 
-.stay__slideshow-slide{
+.stay__slideshow-slide {
   display: none;
 }
 
-.stay__slideshow-image{
+.stay__slideshow-image {
   width: 100%;
   height: 382px;
   object-fit: cover;
 }
 
-.stay__slideshow-prev, .stay__slideshow-next{
+.stay__slideshow-prev,
+.stay__slideshow-next {
   cursor: pointer;
   position: absolute;
   top: 35%;
@@ -62,13 +64,14 @@
   z-index: 0;
 }
 
-.stay__slideshow-next{
+.stay__slideshow-next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.stay__slideshow-prev:hover, .stay__slideshow-next:hover{
-  background-color: rgba(0,0,0,0.8);
+.stay__slideshow-prev:hover,
+.stay__slideshow-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .fade {
@@ -77,16 +80,20 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.stay__content{
+.stay__content {
   display: flex;
   justify-content: space-between;
 }
 
-.stay__text{
+.stay__text {
   display: flex;
   flex-direction: column;
   padding-top: 68px;
@@ -94,25 +101,25 @@
   gap: 24px;
 }
 
-.stay__title{
+.stay__title {
   margin: 0;
   font-weight: 400;
   font-size: 48px;
   line-height: 56px;
 }
 
-.stay__span{
-  color: #5D39AA;
+.stay__span {
+  color: #5d39aa;
 }
 
-.stay__descriptions{
- margin: 0;
- font-size: 32px;
- line-height: 37px;
- max-width: 922px;
+.stay__descriptions {
+  margin: 0;
+  font-size: 32px;
+  line-height: 37px;
+  max-width: 922px;
 }
 
-.stay__buttons{
+.stay__buttons {
   display: flex;
   flex-direction: column;
   gap: 31px;
@@ -120,43 +127,88 @@
   padding-right: 75px;
 }
 
-.stay__buttons-learn{
+.stay__buttons-learn {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 28.3415px;
   line-height: 35px;
   text-decoration: none;
-  border: 2.5765px solid #675E8F;
+  border: 2.5765px solid #675e8f;
   filter: drop-shadow(-2.5765px 2.5765px 10.306px rgba(0, 0, 0, 0.25));
   border-radius: 6.44124px;
-  color: #675E8F;
+  color: #675e8f;
   padding: 17.5px 63.5px 17.5px 63.5px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
-.stay__buttons-learn:hover{
+.stay__buttons-learn:hover {
   border: 2.5765px solid #666666;
   color: #666666;
 }
 
-.stay__buttons-book{
+.stay__buttons-book {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 28.3415px;
   line-height: 35px;
   text-decoration: none;
-  background: #4E4675;
+  background: #4e4675;
   filter: drop-shadow(-2.5765px 2.5765px 10.306px rgba(0, 0, 0, 0.25));
   border-radius: 6.44124px;
-  color: #EFF1EF;
+  color: #eff1ef;
   padding: 17.5px 72px 17.5px 72px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
-.stay__buttons-book:hover{
+.stay__buttons-book:hover {
   background: #666666;
+}
+
+@media screen and (max-width: 600px) {
+  .stay {
+    margin-top: 55px;
+  }
+
+  .stay__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stay__text {
+    padding-top: 47px;
+    padding-left: 0;
+    gap: 25px;
+  }
+  .stay__title {
+    font-size: 44px;
+    line-height: 51px;
+  }
+  .stay__descriptions {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 317px;
+  }
+  .stay__buttons {
+    max-width: 316px;
+    padding-top: 48px;
+    padding-right: 0;
+    gap: 38px;
+  }
+
+  .stay__buttons-learn {
+    padding: 15.5px 80.5px;
+    font-size: 25.1115px;
+    line-height: 31px;
+  }
+
+  .stay__buttons-book {
+    font-size: 25.1115px;
+    line-height: 31px;
+    padding: 15.5px 92px;
+  }
 }

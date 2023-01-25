@@ -1,4 +1,10 @@
-.main{
- max-width: 1440px;
- position: relative;
+.main {
+  max-width: 1440px;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    max-width: 600px;
+  }
 }

@@ -1,7 +1,7 @@
-.footer{
+.footer {
   max-width: 1440px;
   width: 100%;
-  color: #FDFFFD;
+  color: #fdfffd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,23 +11,23 @@
   padding-bottom: 7px;
 }
 
-.footer__logo{
+.footer__logo {
   width: 143px;
   height: 103.79px;
   padding-left: 40px;
 }
 
-.footer__text{
- padding-top: 50px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- max-width: 589px;
- gap: 9px;
+.footer__text {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 589px;
+  gap: 9px;
 }
 
-.footer__links{
+.footer__links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,45 +37,37 @@
   gap: 65px;
 }
 
-.footer__link{
+.footer__link {
   text-decoration: none;
   margin: 0;
   font-size: 24px;
   line-height: 28px;
   cursor: pointer;
-  color: #FDFFFD;
+  color: #fdfffd;
   transition: 0.3s linear;
 }
 
-.footer__link:hover{
- opacity: 0.6;
+.footer__link:hover {
+  opacity: 0.6;
 }
 
-.footer__contact{
- list-style-type: none;
- padding: 0;
- margin: 0;
- display: flex;
- justify-content: space-between;
- max-width: 540px;
- gap: 30px;
+.footer__contact {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 540px;
+  gap: 30px;
 }
 
-.footer__contact-title{
+.footer__contact-title {
   margin: 0;
   font-size: 24px;
   line-height: 28px;
 }
 
-.footer__contact-email{
- margin: 0;
- font-family: 'Montserrat', sans-serif;
- font-weight: 600;
- font-size: 22px;
- line-height: 27px;
-}
-
-.footer__contact-phone{
+.footer__contact-email {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -83,7 +75,15 @@
   line-height: 27px;
 }
 
-.footer__icons{  
+.footer__contact-phone {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.footer__icons {
   list-style-type: none;
   padding: 80px 50px 0 0;
   margin: 0;
@@ -93,32 +93,75 @@
   width: 100%;
 }
 
-.footer__icons-link{
+.footer__icons-link {
   cursor: pointer;
   transition: 0.3s linear;
 }
 
-.footer__icons-link:hover{
- opacity: 0.8;
+.footer__icons-link:hover {
+  opacity: 0.8;
 }
 
-.footer__icons-facebook{
- height: 28.7px;
+.footer__icons-facebook {
+  height: 28.7px;
   width: 30.4px;
 }
 
-.footer__icons-instagram{
- height: 28.7px;
- width: 30.3px;
+.footer__icons-instagram {
+  height: 28.7px;
+  width: 30.3px;
 }
 
-.footer__icons-airbnb{
- height: 26.6px;
- width: 26.17px; 
+.footer__icons-airbnb {
+  height: 26.6px;
+  width: 26.17px;
 }
 
-.footer__icons-shopify{
+.footer__icons-shopify {
   height: 30.75px;
   width: 28.7px;
   margin-bottom: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    max-width: 600px;
+    gap: 107px;
+    padding-bottom: 24.68px;
+  }
+
+  .footer__logo {
+    width: 90px;
+    height: 65.32px;
+    padding-left: 19px;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .footer__icons {
+    max-width: 121px;
+    padding: 44px 22.15px 0 0;
+  }
+
+  .footer__icons-facebook {
+    height: 19.64px;
+    width: 21.18px;
+  }
+
+  .footer__icons-instagram {
+    height: 19.64px;
+    width: 21.14px;
+  }
+
+  .footer__icons-airbnb {
+    height: 18.17px;
+    width: 18.2px;
+  }
+
+  .footer__icons-shopify {
+    height: 21px;
+    width: 19.96px;
+  }
 }
