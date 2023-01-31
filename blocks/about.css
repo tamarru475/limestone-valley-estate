@@ -42,7 +42,19 @@
   height: 374px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
+  .about__text {
+    font-size: 20px;
+    max-width: 600px;
+  }
+  .about__image {
+    width: 380.56px;
+    height: 300px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .about {
     flex-direction: column;
   }
@@ -54,6 +66,17 @@
     gap: 16px;
   }
 
+  .about__text {
+    padding-bottom: 80px;
+  }
+
+  .about__image {
+    top: 310px;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .about__title {
     font-size: 32px;
     line-height: 37px;
@@ -63,6 +86,7 @@
     max-width: 327px;
     font-size: 18px;
     line-height: 22px;
+    padding-bottom: 0;
   }
 
   .about__image {

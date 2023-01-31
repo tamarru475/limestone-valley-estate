@@ -3,6 +3,11 @@
   background: url('../images/main-homepage.png') no-repeat center/cover;
 }
 
+.header__logo {
+  width: 221px;
+  height: 160.4px;
+}
+
 .header__title {
   margin: 0;
   padding-top: 53.6px;
@@ -25,7 +30,27 @@
   padding-bottom: 455px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
+  .header__logo {
+    width: 200px;
+    height: 120.4px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    padding-top: 100px;
+    font-size: 44px;
+  }
+
+  .header__subtitle {
+    font-size: 32px;
+    max-width: 500px;
+    padding-bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .header {
     max-width: 100%;
   }
@@ -37,7 +62,7 @@
 
   .header__title {
     max-width: 273px;
-    padding-top: 159px;
+    padding-top: 240px;
     padding-left: 17px;
     font-size: 44px;
     line-height: 51px;

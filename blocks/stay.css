@@ -168,7 +168,42 @@
   background: #666666;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
+  .stay__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stay__title {
+    text-align: center;
+  }
+
+  .stay__descriptions {
+    text-align: center;
+  }
+
+  .stay__buttons {
+    max-width: 316px;
+    padding-top: 48px;
+    padding-right: 0;
+    gap: 38px;
+  }
+
+  .stay__buttons-learn {
+    padding: 15.5px 80.5px;
+    font-size: 25.1115px;
+    line-height: 31px;
+  }
+
+  .stay__buttons-book {
+    font-size: 25.1115px;
+    line-height: 31px;
+    padding: 15.5px 92px;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .stay {
     margin-top: 55px;
   }
@@ -192,23 +227,5 @@
     line-height: 28px;
     text-align: center;
     max-width: 317px;
-  }
-  .stay__buttons {
-    max-width: 316px;
-    padding-top: 48px;
-    padding-right: 0;
-    gap: 38px;
-  }
-
-  .stay__buttons-learn {
-    padding: 15.5px 80.5px;
-    font-size: 25.1115px;
-    line-height: 31px;
-  }
-
-  .stay__buttons-book {
-    font-size: 25.1115px;
-    line-height: 31px;
-    padding: 15.5px 92px;
   }
 }

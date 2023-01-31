@@ -51,7 +51,7 @@
 .gallery__slideshow-dots {
   position: absolute;
   top: 20%;
-  left: 600px;
+  left: 40%;
   z-index: 1;
 }
 
@@ -108,7 +108,7 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .gallery {
     margin-top: 47px;
   }
@@ -130,6 +130,6 @@
   }
 
   .gallery__slideshow-dots {
-    left: 80px;
+    left: 30%;
   }
 }

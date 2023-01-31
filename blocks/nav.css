@@ -72,19 +72,39 @@
   transform: rotate(-45deg) translate(7px, -6px);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
   .nav {
-    max-width: 320px;
-    padding-top: 12px;
+    padding-top: 30px;
     padding-left: 17px;
-    padding-right: 31px;
+    padding-right: 40px;
   }
 
   .nav__links {
+    opacity: 0;
+    visibility: hidden;
     display: none;
   }
 
   .nav__button {
     visibility: visible;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav {
+    max-width: 600px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    max-width: 80%;
+    padding-top: 12px;
   }
 }
