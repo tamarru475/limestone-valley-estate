@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30.1rem;
+  height: 49.2rem;
+  width: 100%;
+  background-color: #fdfffd;
+  border-radius: 5px;
+  box-shadow: 1px -1px 12px 2px rgba(0, 0, 0, 0.25),
+    -1px 1px 12px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.card__image {
+  display: inline-block;
+  max-height: 21.6rem;
+  width: 30.1rem;
+  background-size: cover;
+}
+
+.card__title {
+  margin: 0;
+  font-weight: inherit;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.card__text {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  max-width: 26.4rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.card__price {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.card__btn {
+  margin-bottom: 1.3rem;
+}
+
+.card:hover {
+  box-shadow: 2px -2px 8px 4px rgba(0, 0, 0, 0.5),
+    -2px 2px 8px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3px) scale(1.05);
+}

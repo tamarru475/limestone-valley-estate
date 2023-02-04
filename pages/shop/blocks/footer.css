@@ -1,0 +1,33 @@
+.footer {
+  margin: 0 auto;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 128.1rem;
+  padding-bottom: 4.5rem;
+}
+
+.footer__logo {
+  width: 18.4rem;
+  height: 100%;
+}
+
+.footer__icon-list {
+  padding: 0;
+  padding-top: 8rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.footer__icons-link:link,
+.footer__icons-link:visited {
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer__icons-link:hover,
+.footer__icons-link:active {
+  opacity: 0.8;
+}

@@ -1,0 +1,60 @@
+.btn:link,
+.btn:visited {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.btn--big {
+  color: #675e8f;
+  padding: 2.1rem 19.4rem 2.2rem 16.3rem;
+  filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.25));
+  border: 3px solid #8c7fc2;
+}
+
+.btn--big:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  border: 3px solid #666666;
+  color: #666666;
+}
+
+.btn--big:active,
+.btn--big:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--big-icon {
+  position: absolute;
+  top: 2rem;
+  left: 29.2rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+  width: 2.7rem;
+}
+
+.btn--small {
+  padding: 1.15rem 9.55rem;
+  background-color: #675e8f;
+  color: #eff1ef;
+}
+
+.btn--small:hover {
+  background: #6c619e;
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--small:active,
+.btn--small:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
