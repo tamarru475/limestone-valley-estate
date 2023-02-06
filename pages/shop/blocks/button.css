@@ -1,18 +1,18 @@
 .btn:link,
 .btn:visited {
   position: relative;
-  display: inline-block;
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 2.2rem;
-  line-height: 2.7rem;
   cursor: pointer;
   transition: all 0.2s linear;
+  margin-bottom: 1.5rem;
 }
 
 .btn--big {
+  font-size: 2.2rem;
+  line-height: 2.7rem;
   color: #675e8f;
   padding: 2.1rem 19.4rem 2.2rem 16.3rem;
   filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.25));
@@ -42,7 +42,8 @@
 }
 
 .btn--small {
-  padding: 1.15rem 9.55rem;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
   background-color: #675e8f;
   color: #eff1ef;
 }
@@ -57,4 +58,40 @@
 .btn--small:focus {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 81.25em) {
+  .btn--big {
+    padding: 1.9rem 13.4rem 2rem 8rem;
+  }
+
+  .btn--big-icon {
+    top: 1.8rem;
+    left: 21rem;
+  }
+}
+
+@media only screen and (max-width: 54.68em) {
+  .btn--big {
+    padding: 1.3rem 9rem 1.4rem 5rem;
+  }
+
+  .btn--big-icon {
+    top: 1.2rem;
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .btn--big {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding: 1.2rem 11.3rem 1.3rem 9.2rem;
+  }
+
+  .btn--big-icon {
+    height: 1.725rem;
+    top: 1.6rem;
+    left: 20rem;
+  }
 }

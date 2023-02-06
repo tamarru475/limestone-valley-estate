@@ -1,5 +1,4 @@
 .banner {
-  position: relative;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -40,16 +39,114 @@
 }
 
 .banner__right {
-  display: flex;
-  flex-direction: column;
-  padding-top: 42rem;
-  padding-right: 12rem;
-  padding: 42rem 12rem 2.4rem 0;
+  max-width: 72.838rem;
+  position: relative;
+  padding: 42rem 6rem 2.4rem 5rem;
 }
 
 .banner__image {
   position: absolute;
   top: -3rem;
-  right: 2.262rem;
+  right: 0;
   height: 48.5rem;
+}
+
+@media only screen and (max-width: 81.25em) {
+  .banner__left {
+    max-width: 48rem;
+    gap: 3rem;
+    padding-left: 3.2rem;
+  }
+
+  .banner__title {
+    width: 48rem;
+    font-size: 4.8rem;
+    line-height: 5.5rem;
+  }
+
+  .banner__subtitle {
+    width: 45rem;
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .banner__right {
+    max-width: 58.838rem;
+    padding: 38rem 12rem 2.4rem 0;
+  }
+
+  .banner__image {
+    top: 5rem;
+    height: 37.3rem;
+  }
+}
+
+@media only screen and (max-width: 58.75em) {
+  .banner__left {
+    gap: 1.8rem;
+  }
+
+  .banner__title {
+    width: 42rem;
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+  }
+
+  .banner__subtitle {
+    width: 40rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+
+  .banner__right {
+    padding: 30rem 5rem 2.4rem 0;
+  }
+
+  .banner__image {
+    top: 5rem;
+    height: 26.4rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__left {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16.5rem;
+  }
+
+  .banner__title {
+    width: 31.3rem;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    text-align: center;
+  }
+
+  .banner__subtitle {
+    width: 31.3rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .banner__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  .banner__image {
+    top: -26.5rem;
+    height: 19.9rem;
+  }
 }

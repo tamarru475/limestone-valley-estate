@@ -1,11 +1,23 @@
 .header {
   margin: 0 auto;
   padding-top: 3.4rem;
-  max-width: 133.8rem;
+  max-width: 95vw;
   display: flex;
   justify-content: space-between;
 }
 
 .header__logo {
   height: 16rem;
+}
+
+@media only screen and (max-width: 54.68em) {
+  .header__logo {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 38.125em) {
+  .header__logo {
+    height: 9.2rem;
+  }
 }

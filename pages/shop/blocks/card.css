@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: 30.1rem;
-  height: 49.2rem;
+  gap: 1rem;
+  min-width: 0;
+  height: 100%;
   width: 100%;
   background-color: #fdfffd;
   border-radius: 5px;
@@ -17,12 +18,14 @@
 .card__image {
   display: inline-block;
   max-height: 21.6rem;
-  width: 30.1rem;
-  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card__title {
   margin: 0;
+  max-width: 95%;
   font-weight: inherit;
   font-size: 2.4rem;
   line-height: 2.8rem;
@@ -31,7 +34,7 @@
 .card__text {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  max-width: 26.4rem;
+  max-width: 90%;
   font-size: 1.6rem;
   line-height: 2rem;
 }
@@ -45,11 +48,19 @@
 }
 
 .card__btn {
-  margin-bottom: 1.3rem;
+  max-width: 95%;
+  padding: 3% 30%;
 }
 
 .card:hover {
   box-shadow: 2px -2px 8px 4px rgba(0, 0, 0, 0.5),
     -2px 2px 8px 4px rgba(0, 0, 0, 0.5);
   transform: translateY(-3px) scale(1.05);
+}
+
+@media only screen and (max-width: 38.125em) {
+  .card {
+    width: 30.1rem;
+    height: 49.2rem;
+  }
 }
