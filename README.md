@@ -1,16 +1,16 @@
 # limestone-valley-estate
 
-# Creator:
+**Creator:**
 
 Tamar Rubin
 
-# About:
+**About:**
 
 A business landing paged presenting a lavender farm in New Zealand who offers lavender products for purchesing and a unique stay in a farm house.
 
-# Technologies:
+**Technologies:**
 
 - HTML
-- Css
+- CSS
 - Java Script
 - Responsive Layout

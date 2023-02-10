@@ -1,0 +1,66 @@
+.btn:link,
+.btn:visited {
+  position: relative;
+  text-decoration: none;
+  border-radius: 1.16448rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.25));
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  border: 3px solid #666666;
+  color: #666666;
+}
+
+.btn:active,
+.btn:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--booking {
+  border: 3px solid #675e8f;
+  color: #675e8f;
+  padding: 2rem 12.1rem 2rem 7.4rem;
+}
+
+.btn__icon-booking {
+  height: 3.536rem;
+  position: absolute;
+  top: 2rem;
+  right: 7.4rem;
+}
+
+.btn--airbnb {
+  background: #675e8f;
+  color: #fdfffd;
+  padding: 2rem 11.799rem 2rem 7.4rem;
+}
+
+.btn__icon-airbnb {
+  height: 3.289rem;
+  position: absolute;
+  top: 2rem;
+  right: 7.4rem;
+}
+
+.btn--airbnb:hover {
+  border: none;
+  background: #666666;
+  color: #fdfffd;
+}
+
+.btn--bookabatch {
+  border: 3px solid #78836d;
+  color: #78836d;
+  padding: 2rem 7.4rem;
+}

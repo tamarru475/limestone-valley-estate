@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Limestone valley estate</title>
-    <link rel="stylesheet" href="./shop.css" />
+    <link rel="stylesheet" href="./stay.css" />
   </head>
   <body>
     <div class="page">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="./img/background-video.mp4" type="video/mp4" />
+          Your browser is not supported
+        </video>
+      </div>
       <header class="header">
         <div class="header__logo-box">
-          <img src="./img/Logo-purple.svg" alt="logo" class="header__logo" />
+          <img src="./img/Logo-green.svg" alt="logo" class="header__logo" />
         </div>
         <nav class="nav">
           <ul class="nav__list">
@@ -19,11 +25,203 @@
               <a class="nav__link" href="/index.html">Home</a>
             </li>
             <li>
-              <a class="nav__link" href="../stay/stay.html">Farm stay</a>
+              <a class="nav__link" href="../shop/shop.html">Our products</a>
             </li>
           </ul>
         </nav>
       </header>
+      <main class="main">
+        <h1 class="main__title">
+          Something about A unique experience in our organic
+          <span class="main__span-1">olive</span> &
+          <span class="main__span-2">lavnder</span> estate
+        </h1>
+        <section class="slideshow__container">
+          <ul class="slideshow">
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/barn-main.png"
+                alt="Barn house"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/bedroom-main.JPG"
+                alt="Bedroom"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/bedroom-back.JPG"
+                alt="Bedroom"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/bedroom-window.JPG"
+                alt="Bedroom"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/farm-house.JPG"
+                alt="Barn house"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/kitchen-main.JPG"
+                alt="Kitchen"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/kitchen.JPG"
+                alt="Kitchen"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/livingroom-left.JPG"
+                alt="Livingroom"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/livingroom-main.JPG"
+                alt="Livingroom"
+                class="slideshow__image"
+              />
+            </li>
+            <li class="slideshow__slide fade">
+              <img
+                src="./img/livingroom-window.JPG"
+                alt="Livingroom"
+                class="slideshow__image"
+              />
+            </li>
+          </ul>
+          <a
+            class="slideshow__prev"
+            onclick="changeSlide(-1, 'slideshow__slide', 'slideshow__dot')"
+            >❮</a
+          >
+          <a
+            class="slideshow__next"
+            onclick="changeSlide(1, 'slideshow__slide', 'slideshow__dot')"
+            >❯</a
+          >
+          <div class="slideshow__dots">
+            <span class="slideshow__dot" onclick="currentSlide(1)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(2)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(3)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(4)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(5)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(6)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(7)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(8)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(9)"></span>
+            <span class="slideshow__dot" onclick="currentSlide(10)"></span>
+          </div>
+        </section>
+        <div class="main__content">
+          <p class="main__text">
+            An awesome sentence about taking care of yourself and the
+            <span class="main__span-1">planet</span>, Also another thing about
+            our <span class="main__span-2">ingredients</span> and how we don't
+            compromise olive oil blah blah blah lets make this paragraph full.
+          </p>
+          <ul class="main__buttons-list">
+            <li class="main__buttons-btn">
+              <a href="#" class="btn btn--booking">
+                Booking
+                <img
+                  src="./img/booking-icon.svg"
+                  alt="shopify"
+                  class="btn__icon-booking"
+                />
+              </a>
+            </li>
+            <li class="main__buttons-btn">
+              <a href="#" class="btn btn--airbnb">
+                Airbnb
+                <img
+                  src="./img/airbnb-white.svg"
+                  alt="shopify"
+                  class="btn__icon-airbnb"
+                />
+              </a>
+            </li>
+            <li class="main__buttons-btn">
+              <a href="#" class="btn btn--bookabatch">Bookabatch</a>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <img src="./img/logo-black.svg" alt="Logo" class="footer__logo" />
+        </div>
+        <ul class="footer__icon-list">
+          <li>
+            <a
+              href="https://www.facebook.com/LimestoneValleyLavender?ref=py_c&paipv=0&eav=AfbrkeS58LVUXUOITxBmDhQ_hm377_o4NoCFnlW9nKdXiGVDwZXDpnw1DtSxRvgMIQQ"
+              class="footer__icon-link"
+            >
+              <img
+                src="./img/Facebook-black.svg"
+                alt="facebook"
+                class="footer__icon-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/limestonevalleyestate2021/?hl=en"
+              class="footer__icons-link"
+            >
+              <img
+                src="./img/insta.svg"
+                alt="instagam"
+                class="footer__icon-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.airbnb.co.nz/rooms/53312586?adults=2&children=0&infants=0&pets=0&check_in=2023-03-27&check_out=2023-04-01&source_impression_id=p3_1675993807_trPkUPXYcjg1ju6V"
+              class="footer__icons-link"
+            >
+              <img
+                src="./img/airbnb-black.svg"
+                alt="airbnb"
+                class="footer__icon-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://limestone-valley-estate.myshopify.com"
+              class="footer__icons-link"
+            >
+              <img
+                src="./img/shopify-black.svg"
+                alt="shopify"
+                class="footer__icon-img"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
+    <script src="./stay.js"></script>
   </body>
 </html>
