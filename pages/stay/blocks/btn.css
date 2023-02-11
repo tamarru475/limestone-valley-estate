@@ -64,3 +64,55 @@
   color: #78836d;
   padding: 2rem 7.4rem;
 }
+
+@media only screen and (max-width: 75em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 2.56661rem;
+    line-height: 3rem;
+  }
+  .btn--booking {
+    padding: 2rem 13.728rem 2rem 10.5rem;
+  }
+
+  .btn__icon-booking {
+    top: 2.3rem;
+    right: 9rem;
+  }
+
+  .btn--airbnb {
+    padding: 2rem 15.528rem 2rem 12rem;
+  }
+
+  .btn__icon-airbnb {
+    right: 11rem;
+  }
+
+  .btn--bookabatch {
+    padding: 2rem 9.2rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .btn--booking {
+    padding: 1.2rem 11.28rem 1.2rem 8rem;
+  }
+
+  .btn__icon-booking {
+    top: 1.3rem;
+    right: 7rem;
+  }
+
+  .btn--airbnb {
+    padding: 1.5rem 12.8rem 1.5rem 9rem;
+  }
+
+  .btn__icon-airbnb {
+    top: 1.3rem;
+    right: 8rem;
+  }
+
+  .btn--bookabatch {
+    padding: 1.2rem 7rem;
+  }
+}
