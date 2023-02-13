@@ -1,7 +1,11 @@
 const staySlide = "stay__slideshow-slide";
 const stayDot = "stay__slideshow-dot";
 const gallerySlide = "gallery__slideshow-slide";
-const galleryDot = "gallery__slideshow-dot"
+const galleryDot = "gallery__slideshow-dot";
+const navButton = document.querySelector(".popupnav__button");
+const navBackground = document.querySelector(".popupnav__background");
+const navList = document.querySelector(".popupnav__nav");
+
 
 let slideIndex = 1;
 showSlides(slideIndex, staySlide, stayDot);
@@ -33,5 +37,21 @@ function showSlides(n, slide, dot) {
     dots[slideIndex - 1].className += " active";
 }
 
+function openPopupNav(button, background, list) {
+    button.classList.toggle("popupnav__button_active");
+    background.classList.toggle("popupnav__background_active");
+    list.classList.toggle("popupnav__nav_active");
+}
 
+function closePopupNav(button, background, list) {
+    button.classList.remove("popupnav__button_active");
+    background.classList.remove("popupnav__background_active");
+    list.classList.remove("popupnav__nav_active");
+}
 
+function togglePopupNav(button, background, list) {
+    openPopupNav(button, background, list);
+}
+
+navButton.addEventListener("click", () => togglePopupNav(navButton, navBackground, navList));
+navList.addEventListener("click", () => closePopupNav(navButton, navBackground, navList));
