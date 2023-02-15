@@ -37,7 +37,7 @@ function showSlides(n, slide, dot) {
     dots[slideIndex - 1].className += " active";
 }
 
-function openPopupNav(button, background, list) {
+function togglePopupNav(button, background, list) {
     button.classList.toggle("popupnav__button_active");
     background.classList.toggle("popupnav__background_active");
     list.classList.toggle("popupnav__nav_active");
@@ -49,9 +49,6 @@ function closePopupNav(button, background, list) {
     list.classList.remove("popupnav__nav_active");
 }
 
-function togglePopupNav(button, background, list) {
-    openPopupNav(button, background, list);
-}
 
 navButton.addEventListener("click", () => togglePopupNav(navButton, navBackground, navList));
 navList.addEventListener("click", () => closePopupNav(navButton, navBackground, navList));
