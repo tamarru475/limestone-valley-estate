@@ -17,9 +17,9 @@ A business landing paged presenting a lavender farm in New Zealand who offers la
 
 **Adding soon:**
 
--Real text
--Deploy
+- Real text
+- Deploy
 
-*Github pages:**
+**Github pages:**
  
  https://tamarru475.github.io/limestone-valley-estate/
