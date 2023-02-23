@@ -1,0 +1,19 @@
+{
+  "name": "limestone-valley-estate",
+  "version": "1.0.0",
+  "description": "A landing page for limestone valley estate lavender farm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamarru475/limestone-valley-estate.git"
+  },
+  "author": "Tamar Rubin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamarru475/limestone-valley-estate/issues"
+  },
+  "homepage": "https://github.com/tamarru475/limestone-valley-estate#readme"
+}
