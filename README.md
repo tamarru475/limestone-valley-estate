@@ -14,3 +14,12 @@ A business landing paged presenting a lavender farm in New Zealand who offers la
 - CSS
 - Java Script
 - Responsive Layout
+
+**Adding soon:**
+
+-Real text
+-Deploy
+
+*Github pages:**
+ 
+ https://tamarru475.github.io/limestone-valley-estate/
